@@ -1,7 +1,8 @@
 <?php
 
-$url = 'https://api.telegram.org/bot2144883279:AAHrhDgcS3kZxCt64qMG1cgqpcc6RmvQ9-0/getUpdates';
-$sendMessageUrl = 'https://api.telegram.org/bot2144883279:AAHrhDgcS3kZxCt64qMG1cgqpcc6RmvQ9-0/sendMessage';
+//2144883279:AAHrhDgcS3kZxCt64qMG1cgqpcc6RmvQ9-0
+$url = 'https://api.telegram.org/bot<token>/getUpdates';
+$sendMessageUrl = 'https://api.telegram.org/bot<token>/sendMessage';
 $lastUpdateId = null;
 $_url = $url;
 
